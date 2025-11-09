@@ -20,7 +20,7 @@
 ## Linux/MacOS
 
 ```bash
-git clone https://github.com/tazinsky/nvchad-config.git ~/.config/nvim && nvim
+git clone https://github.com/zshockk/nvim.git ~/.config/nvim && nvim
 ```
 
 - Run `:MasonInstallAll ` command after lazy.nvim finishes downloading plugins
