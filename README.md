@@ -5,6 +5,7 @@
 - Ripgrep is required for grep searching with Telescope (OPTIONAL)
 - GCC
 - Make
+- LazyGit *(Optional)*
 - Delete old neovim folders
 
 # Features
@@ -16,7 +17,7 @@
 
 # Install 
 
-Linux/MacOS
+## Linux/MacOS
 
 ```bash
 git clone https://github.com/tazinsky/nvchad-config.git ~/.config/nvim && nvim
@@ -25,6 +26,23 @@ git clone https://github.com/tazinsky/nvchad-config.git ~/.config/nvim && nvim
 - Run `:MasonInstallAll ` command after lazy.nvim finishes downloading plugins
 - Delete the `.git ` folder from nvim folder
 - Learn customization of ui & base46 from `:h nvui`
+
+## Visual Studio Code
+
+Install [VSCode Neovim](https://marketplace.visualstudio.com/items?itemName=asvetliakov.vscode-neovim)
+
+Plugin `vscodevim` consumes a lot of resources, so `VSCode Neovim` is much better in performance, \
+because it uses native **Neovim** calls instead of JavaScript emulation
+
+Set up Visual Studio Code: 
+- Press `cmd + shift + p`
+- Choose `Preferences: Open User Settings (JSON)`
+- Paste there everything from `.vscode/settings.json`
+
+Set up Visual Studio Code mappings:
+- Press `cmd + shift + p`
+- Choose `Preferences: Open Keyboard Shrotcuts (JSON)`
+- Paste there everything from `.vscode/keybindings.json`
 
 # Uninstall
 
