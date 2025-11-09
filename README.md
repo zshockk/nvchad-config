@@ -11,8 +11,6 @@
 
 - Go Programming Language support
 - Dockerfile support
-- Kubernetes manifests support
-- Kustomization files support
 - GitHub Actions and Workdlows support
 - GitLab CI support
 
